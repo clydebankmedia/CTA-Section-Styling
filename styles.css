@@ -1,0 +1,71 @@
+/* =========================================
+   1) PRE-BUILT FUNDAMENTALS (do not edit)
+   Minimal design styles so you can focus on custom styling.
+   ========================================= */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    line-height: 1.5;
+    color: #111827;
+    background: #f8fafc;
+    /* page contrast */
+}
+
+/* Visual frame for the CTA  */
+.cta {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+}
+
+/* Readable defaults for title/text  */
+.cta-title {
+    margin: 0 0 8px 0;
+    line-height: 1.2;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cta-text {
+    margin: 0 0 24px 0;
+    color: #6b7280;
+}
+
+/* Footer  */
+.site-footer {
+    color: #6b7280;
+    font-size: 14px;
+    text-align: center;
+    padding: 24px 0 48px;
+}
+
+/* =========================================
+   2) YOUR WORK AREA (write CSS in step order)
+   ========================================= */
+
+/* STEP 1: Container centering + inner padding */
+.container {}
+
+/* STEP 2: CTA outside/inside spacing */
+.cta {}
+
+/* STEP 3: Button base (enables hover/transition) */
+.btn {}
+
+/* STEP 4: Button hover feedback */
+.btn:hover {}
+
+/* STEP 5: Transition on base state */
+/* You will modify the .btn content in the rule block above */
+
+/* STEP 6 (optional): Gradient + soft shadow */
+.btn:hover {}
